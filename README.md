@@ -123,8 +123,8 @@ use Bahuma\OAuth2\Client\Provider\Nextcloud;
 use League\OAuth2\Client\Grant\RefreshToken;
 
 $provider = new Nextcloud([
-    'clientId'     => '{google-client-id}',
-    'clientSecret' => '{google-client-secret}',
+    'clientId'     => '{nextcloud-client-id}',
+    'clientSecret' => '{nextcloud-client-secret}',
     'redirectUri'  => 'https://example.com/callback-url',
     'nextcloudUrl' => 'https://cloud.example.com', // Base URL of your nextcloud instance.
 ]);
